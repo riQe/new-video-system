@@ -1,8 +1,8 @@
 <?php 
 
-$var1 = 10;
-$var2 = 40;
+$var1 = 300;
+$var2 = 1680;
 
-echo $var1 * $var2;
+echo $var1 + $var2;
 
 ?>
