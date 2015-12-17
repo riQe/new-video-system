@@ -1,5 +1,6 @@
-Apenas um teste
-new-system-video
-teste0
-teste1
-teste2
+Sistema para assistir seriados online.
+
+PHP
+HTML5
+CSS3
+JAVASCRIPT
