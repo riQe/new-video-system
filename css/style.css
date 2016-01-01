@@ -1,4 +1,5 @@
 * {margin:0; padding:0; color:#000;}
+body {background: #F5F5F5;}
 /*CSS RESET*/
 
 /*Header and logo*/
@@ -6,7 +7,6 @@
 header {
 
 	width: 100%;
-	height: 80px;
 	position: fixed;
 	background: #3D3D3D;
 	box-shadow: -1px 2px 3px #000;
@@ -78,6 +78,34 @@ nav#topmenu ul li a:hover {
 
 	color: #FFC35B;
 	margin-top: -3px;
+}
+
+header.large {
+	height:80px;
+}
+
+header.small {
+	height:50px;
+}
+
+header.small #topmenu ul{
+	margin-top:10px;
+}
+
+header.small #logo {
+	font-size: 8px;
+}
+
+header.small .salt p {
+	font-size: 14px;
+	margin-top: -7px;
+}
+
+header, nav, .salt p, #logo, #topmenu ul {
+	transition:all 300ms;
+	-moz-transition:all 300ms;
+	-webskit-transition:all 300ms;
+	-o-transition:all 300ms;
 }
 
 /*Section*/
