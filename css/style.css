@@ -1,0 +1,106 @@
+* {margin:0; padding:0; color:#000;}
+/*CSS RESET*/
+
+/*Header and logo*/
+
+header {
+
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	background: #3D3D3D;
+	box-shadow: -1px 2px 3px #000;
+	z-index: 3;
+
+}
+
+#logo {
+
+	max-height: 80px;
+	margin-top: 8px;
+	left: 50%;
+	margin-left: -401px;
+	position: absolute;
+	z-index: 4;
+	font-family: sans-serif;
+
+}
+
+#logo h1 {color: #EDEDED; text-shadow: 1px 2px 1px #000;}
+
+.salt p{
+
+	margin-top: -18px;
+	margin-left: 16px;
+	font-family: monospace;
+	font-size: 34px;
+	color: #EDEDED;
+
+}
+
+.acolor {
+	color: #FFC35B;
+}
+
+/*Header Menu*/
+
+nav#topmenu ul {
+
+	left: 50%;
+	margin-left: 179px;
+	margin-top:22px;
+	padding:0;
+	position:absolute;
+	z-index: 6;
+	
+}
+
+nav#topmenu ul li {
+	display: inline;
+}
+
+nav#topmenu ul li a{
+
+	padding:8px 10px;
+	font-size:16px;
+	text-decoration: none;
+	color: #EDEDED;
+	font-family: monospace;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	float: left;
+	outline: none;
+}
+
+nav#topmenu ul li a:hover {
+
+	color: #FFC35B;
+	margin-top: -3px;
+}
+
+/*Section*/
+
+section {
+
+	width: 100%;
+	height: 1300px;
+	margin-top: 80px;
+	float:left;
+	background: #F5F5F5;
+
+}
+
+#box1 {
+
+	width: 800px;
+	min-height: 300px;
+	margin-top: 30px;
+	left: 50%;
+	margin-left: -400px;
+	position: absolute;
+	z-index: 2;
+	float:left;
+	
+}
