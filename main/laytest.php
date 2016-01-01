@@ -4,10 +4,13 @@
 	<meta charset="utf8">
 	<title>Test</title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../js/script.js"></script>
 </head>
 <body>
 <!--Fixed menu with logo-->		
-	<header>
+	<header class="large">
 	<!--begin div Logo-->
 		<div id="logo">
 			<h1>
