@@ -1,0 +1,31 @@
+{
+  "name": "video system",
+  "description": "system to play a video simultaneously with other user",
+  "main": "main/laytest.php",
+  "moduleType": [
+    "amd",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "video",
+    "system"
+  ],
+  "authors": [
+    "\"Henrique Lira https://github.com/riQe\""
+  ],
+  "license": "MIT",
+  "homepage": "\"https://github.com/riQe/new-video-system\"",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "assets/components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
