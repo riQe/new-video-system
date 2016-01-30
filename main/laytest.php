@@ -1,3 +1,16 @@
+<?php 
+
+function __autoload($class_name) {
+require_once '../controllers/'.$class_name.'.php';
+}
+
+
+$filmes = new Testecon();
+$id = 2;
+$get = $filmes->findAll();
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +52,19 @@
 				<p class="dur"></p>
 			</div>
 
+			<div id="box2">
+			<div class="hed"><p>Titulo</p><p>Sinopse</p><p>Duração</p></div>
+				<?php foreach ($get as $key): ?>
+				<div class="item">
+				<p><?php echo $key->titulo; ?></p>
+				<p><?php echo $key->sinopse; ?></p>
+				<p class="esp"><?php echo $key->tempo; ?></p>			
+				</div>
+				<?php endforeach ?>
+	
+			</div>
 		</article>
+
 	</section>
 
 </body>
